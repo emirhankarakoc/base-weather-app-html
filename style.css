@@ -98,26 +98,30 @@ body{
     outline: 0;
     background: #ebfffc;
     color: #555;
-    padding: 10px 25px;
-    height: 60px;
-    border-radius: 30px;
+    padding: 8px 20px; /* Yeni boyutlar */
+    height: 50px; /* Yeni boyutlar */
+    border-radius: 25px; /* Yeni boyutlar */
     flex: 1;
     margin-right: 16px;
-    font-size: 18px;
+    font-size: 14px; /* Yeni boyutlar */
+    min-width: 150px; /* İhtiyacınıza göre ayarlayabilirsin */
+
 }
 
-.search button{
+.search button {
     border: 0;
     outline: 0;
     background: #ebfffc;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    cursor:pointer;
+    width: 50px; /* Yeni boyutlar */
+    height: 50px; /* Yeni boyutlar */
+    cursor: pointer;
+    min-width: 30px; /* İhtiyacınıza göre ayarlayabilirsin */
+
 }
 
-.search button img{
-    width: 16px;
+.search button img {
+    width: 14px; /* Yeni boyutlar */
 }
 
 .weather-icon{
@@ -140,7 +144,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 10px;
     margin-top: 50px;
 }
 
@@ -157,8 +161,10 @@ body{
 }
 
 .humidity, .wind{
-    font-size: 28px;
+    font-size: 24px;
     margin-top: -6px;
+    margin-left: 0px;
+    padding: 0px;
 }
 
 .weather{
